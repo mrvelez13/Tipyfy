@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent {
-  title = 'Cuerpo!';
+
+  mostrar:boolean = false;
+  
+  frase:any = {
+    mensaje: "Una mujer que entienda los problemas de llevar una casa, está muy cerca de entender los de llevar un país",
+    autor: "Margareth Tacher"
+  };
 }
